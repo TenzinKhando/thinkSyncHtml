@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<!--https://www.youtube.com/watch?v=7YJUFaZMS8Q "Modals which are pop up boxes or can use to edit inventory info"-->
+		<title>Inventory</title>
+		<meta name = "viewport" content = "width=device-width, initial-scale=1,0">
+		<link href = "css/bootstrap.min.css" rel = "stylesheet">
+		<link href = "css/style.css" rel = "stylesheet">
+		<link href = "fonts/bootstrap.min.css" rel = "stylesheet">
+		<link href = "js/bootstrap.min.css" rel = "stylesheet">
+
+	</head>
+
+
+	<body>
+	
+		<div class = "navbar navbar-inverse navbar-static-top">
+			<div class = "container">
+		
+				<a href = "#" class = "navbar-brand">thinkSync</a> <!--# can change into a url link-->
+				<a href = "#" class = "navbar-brand">thinkSync</a>
+				
+		
+				<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+				</button>
+		
+				<div class = "collapse navbar-collapse navHeaderCollapse">
+					<ul class = "nav navbar-nav navbar-right">
+						<li class = "active"><a href = "#">Home</a></li> <!--active shows/highlights the page highlights the one that you are working on-->
+						<li><a href = "#">Home1</a></li>
+						<li class = "dropdown">
+							<a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">POO<b class = "caret"></b></a>
+							<ul class = "dropdown-menu">
+								<li><a href = "#">1</a></li>
+								<li><a href = "#">2</a></li>
+								<li><a href = "#">3</a></li>
+							</ul>
+						</li>
+						<li><a href = "#">Home2</a></li>
+						<li><a href = "#">Home3</a></li>
+					</ul>
+					</div>
+				</div>
+			
+			</div> <!--end of navigation bar-->
+			
+			<div class = "container">
+				<div class = "jumbotron">
+					<div class = "row">
+						<div class = "col-md-2">
+							<strong>Product</strong>
+						</div>
+						<div class = "col-md-2">
+							<strong>Quantity</strong>
+						</div>
+						<div class = "col-md-2">
+							<strong>Expiration</strong>
+						</div>
+						<div class = "col-md-2">
+							<strong>Status</strong>
+						</div>
+						<div class = "col-md-2">
+							<strong>Product</strong>
+						</div>
+						<div class = "col-md-2">
+							<strong>Product</strong>
+						</div>
+					</div>
+					<div class = "row">
+						<div class = "col-md-2">
+							Product
+						</div>
+						<div class = "col-md-2">
+							Product
+						</div>
+						<div class = "col-md-2">
+							Product
+						</div>
+						<div class = "col-md-2">
+							Product
+						</div>
+						<div class = "col-md-2">
+							Product
+						</div>
+						<div class = "col-md-2">
+							Product
+						</div>
+					</div>
+					<div class = "row">
+						<div class = "col-md-2">
+							
+							<a href = "#add" class = "btn btn-default" data-toggle = "modal"><span class="glyphicon glyphicon-plus"></span></a> <!--add button-->
+			
+							<div class = "modal fade" id = "add" role = "dialog">
+								<div class = "modal-dialog">
+									<div class = "modal-content">
+										<div class = "modal-header">
+											<center><p>Add New Item</p></center>
+										</div>
+										<div class = "modal-body"> <!--This is what you want in the modal body-->
+											<table class = "table table-striped">
+												<thead>
+													<tr>
+														<td>Hi</td>
+														<td>what</td>
+														<td>dfjao</td>
+													</tr>
+												</thead>
+													</tbody>
+														<tr>
+															<td>keke</td>
+															<td>keke</td>
+															<td>adfa</td>
+														</tr>
+														<tr>
+															<td>keke</td>
+															<td>keke</td>
+															<td>adfa</td>
+														</tr>
+														<tr>
+															<td>keke</td>
+															<td>keke</td>
+															<td>adfa</td>
+														</tr>
+													</tbody>
+											</table>
+										</div>
+						
+										<div class = "modal-footer">
+											<center><a href = "#add" class = "btn btn-success" data-dismiss = "modal"><span class="glyphicon glyphicon-plus"></span></a> <!--add button-->
+											<a href = "#add" class = "btn btn-danger" data-dismiss = "modal"><span class="glyphicon glyphicon-remove"></span></a></center> <!--close button-->
+										</div>
+									</div>
+								</div>
+							</div> <!--end button-->
+						</div>
+						<div class = "col-md-2">
+							Product
+						</div>
+						<div class = "col-md-2">
+							Product
+						</div>
+						<div class = "col-md-2">
+							Product
+						</div>
+						<div class = "col-md-2">
+							Product
+						</div>
+						<div class = "col-md-2">
+							Product
+						</div>
+					</div>
+				</div>
+			</div>
+			
+<br> <!--Separating jumbotron and table-->
+
+
+		<div class = "table">
+			<table class = "table table-hover" style="margin-top: -40px;">	
+				<thead>
+					<tr>
+						<td><strong>Product</td></strong>
+						<td><strong>Quantity</td></strong>
+						<td><strong>Experation</td></strong>
+						<td><strong>Status</td></strong>
+						<td><strong>Product</td></strong>
+					</tr>
+				</thead>
+				
+				<tbody>
+					<tr>
+						<td>
+						
+
+						<a href = "#add" class = "btn btn-default" data-toggle = "modal"><span class="glyphicon glyphicon-plus"></span></a> <!--add button-->
+		
+						<div class = "modal fade" id = "add" role = "dialog">
+							<div class = "modal-dialog">
+								<div class = "modal-content">
+									<div class = "modal-header">
+										<center><p>Add New Item</p></center>
+									</div>
+									<div class = "modal-body"> <!--This is what you want in the modal body-->
+										<table class = "table table-striped">
+											<thead>
+												<tr>
+													<td>Hi</td>
+													<td>what</td>
+													<td>dfjao</td>
+												</tr>
+											</thead>
+												</tbody>
+													<tr>
+														<td>keke</td>
+														<td>keke</td>
+														<td>adfa</td>
+													</tr>
+													<tr>
+														<td>keke</td>
+														<td>keke</td>
+														<td>adfa</td>
+													</tr>
+													<tr>
+														<td>keke</td>
+														<td>keke</td>
+														<td>adfa</td>
+													</tr>
+												</tbody>
+										</table>
+									</div>
+					
+									<div class = "modal-footer">
+										<center><a href = "#add" class = "btn btn-success" data-dismiss = "modal"><span class="glyphicon glyphicon-plus"></span></a> <!--add button-->
+										<a href = "#add" class = "btn btn-danger" data-dismiss = "modal"><span class="glyphicon glyphicon-remove"></span></a></center> <!--close button-->
+									</div>
+								</div>
+							</div>
+						</div> <!--end button-->
+						
+						
+						
+						</td>
+						<td>
+						
+						
+						
+						    <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+						
+						
+						
+						
+						</td>
+						<td>
+						
+						<form class="form-inline">
+						  <div class="form-group">
+						    <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+						    <div class="input-group">
+						      <div class="input-group-addon">$</div>
+						      <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+						      <div class="input-group-addon">.00</div>
+						    </div>
+						  </div>
+
+						</form>
+						
+						
+						
+						
+						</td>
+						<td>adfa</td>
+						<td>adfa</td>				
+					</tr>
+					<tr>
+						<td>keke</td>
+						<td>keke</td>
+						<td>adfa</td>
+						<td>adfa</td>
+						<td>adfa</td>
+					</tr>
+					<tr>
+						<td>keke</td>
+						<td>keke</td>
+						<td>adfa</td>
+						<td>adfa</td>
+						<td>adfa</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+			
+			
+			<a href = "#add" class = "btn btn-default" data-toggle = "modal"><span class="glyphicon glyphicon-plus"></span></a> <!--add button-->
+			
+			<div class = "modal fade" id = "add" role = "dialog">
+				<div class = "modal-dialog">
+					<div class = "modal-content">
+						<div class = "modal-header">
+							<center><p>Add New Item</p></center>
+						</div>
+						<div class = "modal-body"> <!--This is what you want in the modal body-->
+							<table class = "table table-striped">
+								<thead>
+									<tr>
+										<td>Hi</td>
+										<td>what</td>
+										<td>dfjao</td>
+									</tr>
+								</thead>
+									</tbody>
+										<tr>
+											<td>keke</td>
+											<td>keke</td>
+											<td>adfa</td>
+										</tr>
+										<tr>
+											<td>keke</td>
+											<td>keke</td>
+											<td>adfa</td>
+										</tr>
+										<tr>
+											<td>keke</td>
+											<td>keke</td>
+											<td>adfa</td>
+										</tr>
+									</tbody>
+							</table>
+						</div>
+						
+						<div class = "modal-footer">
+							<center><a href = "#add" class = "btn btn-success" data-dismiss = "modal"><span class="glyphicon glyphicon-plus"></span></a> <!--add button-->
+							<a href = "#add" class = "btn btn-danger" data-dismiss = "modal"><span class="glyphicon glyphicon-remove"></span></a></center> <!--close button-->
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+			
+			<script src = "js/bootstrap.js"></script>
+
+	</body>
+
+</html>
+

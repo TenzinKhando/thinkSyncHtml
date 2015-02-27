@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+
+
+	<title>thinkSync Sign Up</title>
+	<link href="css/bootstrap.min.css" rel ="stylesheet">
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href ="#"> </link>
+ 	<script  src = "login.js"></script>
+	
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-static-top">
+		<div class="navbar-header">
+			<!--Creating a toggle option for smaller screen-->
+			<button type="button" class="navbar-toggle btn-success" data-toggle="collapse" data-target="#log-in-form">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="logIn.html">thinkSync</a>
+			<a class="navbar-brand" href="about.html">About</a>
+		</div>
+		<div class="collapse navbar-collapse" id="log-in-form" >
+			<form class="navbar-form navbar-right">
+				<div class="form-group">				
+					<input type="text" class="form-control" id="iD" placeholder = "Email">
+					<input type="password" class ="form-control" id="iDPassword" placeholder ="Password">
+				</div>
+				<button type="submit" class= "btn btn-success" data-loading-text = "Checking..." id="log-in" onclick="window.location='login.html'">Log In</button>
+			</form>
+		</div>
+	</nav>
+	<div class= "container">
+		<div class="row">
+		<div class="col-md-3">
+			<img src="thinksync_concept_logo_resized.png"/>
+		</div>
+		<div class="col-md-6" >
+		<form class="form-horizontal">
+			<fieldset>
+				<!-- Form Name -->
+				<legend class="text-center login-title"><h1>Sign Up</h1></legend>
+
+				<!-- Text input-->
+				<div class="form-group">
+				  <label class="col-md-4 control-label" for="user-name">Username:</label>  
+				  <div class="col-md-4">
+				  <input id="user-name" name="user-name" type="text" placeholder="" class="form-control input-md" required="">
+					
+				  </div>
+				</div>
+
+				<!-- Password input-->
+				<div class="form-group">
+				  <label class="col-md-4 control-label" for="password-input">Password:</label>
+				  <div class="col-md-4">
+					<input id="password-input" name="password-input" type="password" placeholder="" class="form-control input-md" required="">
+					
+				  </div>
+				</div>
+
+				<!-- Password input-->
+				<div class="form-group">
+				  <label class="col-md-4 control-label" for="confirm-password">Confirm Password:</label>
+				  <div class="col-md-4">
+					<input id="confirm-password" name="confirm-password" type="password" placeholder="" class="form-control input-md" required="">
+					
+				  </div>
+				</div>
+
+				<!-- Button -->
+				<div class="form-group">
+				  <label class="col-md-4 control-label" for="signup-button"></label>
+				  <div class="col-md-4">
+					<button id="signup-button" name="signup-button" class="btn btn-success">Sign Up</button>
+				  </div>
+				</div>
+
+			</fieldset>
+		</form>
+		</div>
+		</div>
+	</div>
+
+</body>
+</html>
